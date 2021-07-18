@@ -18,7 +18,7 @@ class Header extends Component {
                             <Col lg="6" md="5">
                                 <div className="bar-left">
                                     <ul className="list-unstyled list-inline">
-                                        <li className="list-inline-item"><i className="las la-map-marker"></i>Gangolli, Udupi Dist, Karnataka, India</li>
+                                        <li className="list-inline-item"><i className="las la-map-marker"></i>Gangolli, Udupi Dist, Karnataka, India.</li>
                                         {/* <li className="list-inline-item"><Link to={process.env.PUBLIC_URL + "/faq"}>Have Questions</Link></li> */}
                                     </ul>
                                 </div>
