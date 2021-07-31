@@ -15,40 +15,41 @@ class Header extends Component {
                 <section className="top-bar">
                     <Container>
                         <Row>
-                            <Col lg="2" md="2">
+                            <Col lg="6" md="5">
                                 <div className="bar-left">
-            
                                     <ul className="list-unstyled list-inline">
-                                        <li className="list-inline-item"><i className="las la-map-marker"></i>Alert:</li>
+                                        <li className="list-inline-item"><i className="las la-map-marker"></i>Gangolli, Udupi Dist, Karnataka, India.</li>
+                                        {/* <li className="list-inline-item"><Link to={process.env.PUBLIC_URL + "/faq"}>Have Questions</Link></li> */}
                                     </ul>
                                 </div>
                             </Col>
                          
-                            <Col lg="10" md="10">
-                                <div className="bar-right d-flex justify-content-end alert-right">
-
-                                <div className="alert-area">
-                                    <marquee className="" onmouseover="this.stop();" onmouseout="this.start();" >
-                                        <a className="xatext">Preparatory holidays for examinations of first semester UG & PG programs shall be from 19 to 24 July 2021</a>
-                                    </marquee>
-                                </div>
-                                
-
-                                {/* <ul className="list-unstyled list-inline bar-social">
-                                    <li className="list-inline-item">
-                                        xxx
-                                    </li>
-                                </ul> */}
-                     
-                                    {/* <ul className="list-unstyled list-inline bar-social">
+                            <Col lg="6" md="7">
+                                <div className="bar-right d-flex justify-content-end">
+                                    <ul className="list-unstyled list-inline bar-social">
                                         <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-facebook-f"></i></a></li>
-
+                                        {/* <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-twitter"></i></a></li>
+                                        <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-linkedin-in"></i></a></li>
+                                        <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-instagram"></i></a></li> */}
                                     </ul>
-                                    
+                                    {/* <ul className="list-unstyled list-inline bar-lang">
+                                        <li className="list-inline-item">
+                                            <Dropdown>
+                                                <Dropdown.Toggle as="a"><img src={process.env.PUBLIC_URL + "/assets/images/us.png"} alt="" />English<i className="las la-angle-down"></i></Dropdown.Toggle>
+                                                <Dropdown.Menu as="ul">
+                                                    <Dropdown.Item as="li"><img src={process.env.PUBLIC_URL + "/assets/images/us.png"} alt="" /> English</Dropdown.Item>
+                                                    <Dropdown.Item as="li"><img src={process.env.PUBLIC_URL + "/assets/images/fra.png"} alt="" /> French</Dropdown.Item>
+                                                    <Dropdown.Item as="li"><img src={process.env.PUBLIC_URL + "/assets/images/ger.png"} alt="" /> German</Dropdown.Item>
+                                                    <Dropdown.Item as="li"><img src={process.env.PUBLIC_URL + "/assets/images/spa.png"} alt="" /> Spanish</Dropdown.Item>
+                                                    <Dropdown.Item as="li"><img src={process.env.PUBLIC_URL + "/assets/images/bra.png"} alt="" /> Brazilian</Dropdown.Item>
+                                                </Dropdown.Menu>
+                                            </Dropdown>
+                                        </li>
+                                    </ul> */}
                                     <ul className="list-unstyled list-inline bar-login">
                                         <li className="list-inline-item"><Link to={process.env.PUBLIC_URL + "/login"}><i className="las la-user"></i>Log In</Link></li>
                                         <li className="list-inline-item"><Link to={process.env.PUBLIC_URL + "/registration"}><i className="las la-user-edit"></i>Register</Link></li>
-                                    </ul> */}
+                                    </ul>
                                 </div>
                             </Col>
                         </Row>

@@ -2,6 +2,18 @@ import styled from "styled-components";
 import { colors } from "../common/element/elements.js";
 
 export const Styles = styled.div`
+    .alert-right{
+        .alert-area {
+            padding     : 10px 15px;
+            width : 100%;
+
+            .xatext{
+                color: white;
+                font-size: 14px;
+                font-weight: bold;
+            }
+        }
+    }
     .top-bar {
         background: ${colors.bg1};
         .bar-left {

@@ -45,8 +45,9 @@ function Sidebar() {
                 </div>
                 <div className="side-content">
                     <h5>About Us</h5>
-                    <p>Lorem ipsum dolor sit amet, consecte adipisicing elit. Mollitia modi, nostru rem sapiente. Excepturi
-                        molestiae soluta quisquam officiis iure sunt.</p>
+                    <p>In the early ninetees, there were no English medium schools in and around the vicinity of the village.
+                         Thus, Touheed Educational Trust Gangulli, a registered charitable organization, with education and 
+                         community service as its prime objective ventured into establishing an English medium school in October 1990.</p>
                 </div>
                 <div className="side-post">
                     <h5>Recent Post</h5>
@@ -90,9 +91,9 @@ function Sidebar() {
                 <div className="side-contact">
                     <h5>Contact Us</h5>
                     <ul className="list-unstyled">
-                        <li><i className="las la-map-marker"></i>795 South Park Avenue, New York, NY USA 94107</li>
-                        <li><i className="las la-phone"></i>+1 (396) 486 4709</li>
-                        <li><i className="las la-envelope"></i>enquery@edulyb.com</li>
+                        <li><i className="las la-map-marker"></i>Gangolli, Udupi Dist, Karnataka, India.</li>
+                        <li><i className="las la-phone"></i>+1 (999) 999 999</li>
+                        <li><i className="las la-envelope"></i>info@touheed.education</li>
                     </ul>
                 </div>
                 <div className="side-social">

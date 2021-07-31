@@ -6,6 +6,7 @@ import Header from '../../components/Header';
 import { BreadcrumbBox } from '../../components/common/Breadcrumb';
 import GoogleMap from './GoogleMap';
 import FooterTwo from '../../components/FooterTwo';
+import Footer from '../../components/Footer';
 import { Styles } from './styles/contact.js';
 
 function Contact() {
@@ -175,7 +176,8 @@ function Contact() {
                 </section>
 
                 {/* Footer 2 */}
-                <FooterTwo />
+                {/* <FooterTwo /> */}
+                < Footer />
 
             </div>
         </Styles>

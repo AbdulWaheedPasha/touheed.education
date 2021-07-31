@@ -7,6 +7,7 @@ import TabBox from './../../components/TabBox';
 import TestimonialSlider from '../../components/TestimonialSlider';
 import FaqEvent from '../../components/FaqEvent';
 import FooterTwo from '../../components/FooterTwo';
+import Footer from '../../components/Footer';
 import { Styles } from "./styles/about.js";
 
 class About extends Component {
@@ -39,7 +40,8 @@ class About extends Component {
                     <FaqEvent />
 
                     {/* Footer 2 */}
-                    <FooterTwo />
+                    {/* <FooterTwo /> */}
+                    < Footer />
 
                 </div>
             </Styles>

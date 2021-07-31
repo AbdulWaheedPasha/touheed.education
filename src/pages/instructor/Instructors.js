@@ -6,6 +6,7 @@ import HeaderTwo from '../../components/HeaderTwo';
 import { BreadcrumbBox } from '../../components/common/Breadcrumb';
 import Pagination from './../../components/Pagination';
 import FooterTwo from '../../components/FooterTwo';
+import Footer from '../../components/Footer';
 import { Styles } from './styles/instructor.js';
 
 
@@ -57,7 +58,8 @@ class Instructor extends Component {
                     </section>
 
                     {/* Footer 2 */}
-                    <FooterTwo />
+                    {/* <FooterTwo /> */}
+                    < Footer />
 
                 </div>
             </Styles>

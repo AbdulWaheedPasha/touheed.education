@@ -7,6 +7,8 @@ import { BreadcrumbBox } from '../../components/common/Breadcrumb';
 import Pagination from '../../components/Pagination';
 import CourseSidebar from '../courses/components/CourseSidebar';
 import FooterTwo from '../../components/FooterTwo';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 import { Styles } from './styles/event.js';
 
 class Events extends Component {
@@ -18,6 +20,7 @@ class Events extends Component {
                 <div className="main-wrapper event-page">
 
                     {/* Header 2 */}
+                    {/* < Header /> */}
                     <HeaderTwo />
 
                     {/* Breadcroumb */}
@@ -78,7 +81,7 @@ class Events extends Component {
                                 </Col>
 
                                 <Col lg="3" md="0">
-                                    <CourseSidebar />
+                                    {/* <CourseSidebar /> */}
                                 </Col>
 
                             </Row>
@@ -87,7 +90,8 @@ class Events extends Component {
 
 
                     {/* Footer 2 */}
-                    <FooterTwo />
+                    {/* <FooterTwo /> */}
+                    < Footer />
 
                 </div>
             </Styles>
